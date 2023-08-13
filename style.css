@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+@font-face {
+    font-family: Norse;
+    font-weight: bold;
+    src: url('Norse-Bold.otf');
+}
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-image: url(bg.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 33%;
+    background-size: contain;
+}
+
+.logo-bar {
+    margin-top: 30%;
+    background: rgba(0, 0, 0, .5);
+    height: 100px;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Norse;
+    font-size: 3rem;
+}
+
+.logo-bar img {
+    max-height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    align-content: center;
+    height: 700px;
+    max-width: 90%;
+    border-radius: 1rem;
+    box-shadow: 0 0 15px 2px #DDD;
+    overflow: hidden;
+}
