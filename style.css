@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Norse-Bold;
+    src: url(/fonts/Norse-Bold.otf);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Norse-Bold sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 100vh;
+}
+
+.left{
+    background-image: url('./images/bg.png');
+    width: 35vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 65vw;
+    background-color: #fafafa;
+}
+
+.first {
+    height: 25vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+.second {
+    height: 33vh;
+    background-color: white;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.form-main-div {
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;    
+    width: 60%;
+    justify-content: space-between;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 200px;
+    border: 1px solid #E5E7EB;
+    height: 24px;
+    border-radius: 5px;
+}
+
+input:focus{
+    border: 1px solid blue;
+}
+
+input:invalid {
+    border: 1px solid red;
+}
+
+#error {
+    color: red;
+    font-size: 12px;
+}
+label {
+    font-size: 12px;
+    color: #4f4e4e;
+}
+
+.btn-green {
+    background-color: #596D48;
+    color: white;
+    border: 1px solid #596D48;
+    border-radius: 10px;
+    height: 40px;
+    width: 175px;
+    font-weight: bolder;
+    font-size: small;
+    box-shadow: 2px 5px #E5E7EB;
+}
+
+.third {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.login {
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+a{
+    color: #596D48;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.logo-text{
+    height: 45vh;
+    display: flex;
+    align-items: flex-end;
+}
+
+.semi-transparent {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    opacity: 0.6;
+    font-family: Norse-Bold;
+}
