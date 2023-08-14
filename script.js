@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
     if(password == "" && confirmPassword == ""){
         error.innerHTML = "*passwords do not match";
     }
-    else if(password === confirmPassword){
+    else if(password == confirmPassword){
         error.innerHTML = "";
     }
 })
